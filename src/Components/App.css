@@ -1,0 +1,9 @@
+.jumbotron-fluid {
+    background-color: #40525B;
+    color: white;
+}
+
+a, a:hover, a:visited, a:focus, a:active {
+    text-decoration: none;
+    color: inherit
+}

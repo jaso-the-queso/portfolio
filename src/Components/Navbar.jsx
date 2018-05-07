@@ -31,7 +31,7 @@ export default class Nav extends Component {
                 <Navbar color="special-color-dark" dark expand="md" fixed="top" scrolling>
                     <Container>
                         <NavbarBrand href="/">
-                            <h3>future logo</h3>
+                            <h3>J / S</h3>
                         </NavbarBrand>
                         {!this.state.isWideEnough && <NavbarToggler onClick={this.onClick} />}
                         <Collapse isOpen={this.state.collapse} navbar>
@@ -43,7 +43,7 @@ export default class Nav extends Component {
                                     <NavLink to="#" className="mr-2">RESUME</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink to="#" className="mr-2">PORTFOLIO</NavLink>
+                                    <NavLink to="/portfolio" className="mr-2">PORTFOLIO</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink to="/contact" className="mr-5">CONTACT</NavLink>

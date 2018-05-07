@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 import Home from "./Home";
+import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
 export default class App extends Component {
@@ -16,6 +17,7 @@ export default class App extends Component {
                     <Navbar />
                     <Switch>
                         <Route exact path="/" component={Home} />
+                        <Route exact path="/portfolio" component={Portfolio} />
                         <Route exact path="/contact" component={Contact} />
                     </Switch>
                     <Footer />

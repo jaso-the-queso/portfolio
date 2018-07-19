@@ -1,9 +1,36 @@
-.jumbotron-fluid {
-    background-color: #40525B;
-    color: white;
+/* Fonts */
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
-a, a:hover, a:visited, a:focus, a:active {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    background-color: black;
+}
+
+.intro-hr {
+    width: 150px;
+    height: 6px;
+    background-color: rgb(151, 206, 206);
+}
+
+.intro-font {
+    color: rgb(240, 240, 240);
+    letter-spacing: 1px;
+    font-family: 'OpenSans-Regular'
+}
+
+a {
+    color: rgb(151, 206, 206);
     text-decoration: none;
-    color: inherit
+}
+
+a:hover {
+    color: rgb(240, 240, 240);
+    text-decoration: none;
 }

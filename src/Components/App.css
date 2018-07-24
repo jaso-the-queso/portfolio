@@ -4,6 +4,11 @@
     src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +42,7 @@ a:hover {
 
 .title {
     width: 100%;
-    height: 210px;
+    height: 270px;
     background-color: #414141;
     color: #B0B1B1;
     margin-right: 0;
@@ -45,7 +50,7 @@ a:hover {
 }
 
 .title-font {
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans-Bold';
     font-size: 4em;
     letter-spacing: 1.6px;
 }
@@ -54,8 +59,7 @@ a:hover {
     background-color:#212121;
     color: #FEFEFE;
     font-family: 'OpenSans-Regular';
-    margin-right: 0;
-    margin-left: 0;
+    
 }
 
 .intro-hr {
@@ -66,4 +70,20 @@ a:hover {
 
 li {
     font-size: 1.7em;
+}
+
+.port {
+    font-size: 1em;
+    letter-spacing: .5px;
+}
+
+.tool-tag {
+    color: #212121;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(15, 15, 15);
+    color: #FEFEFE;
 }

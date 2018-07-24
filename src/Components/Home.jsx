@@ -13,48 +13,95 @@ export default class Home extends Component {
                         <p className="intro-font my-5">I am a full stack developer / musician with a passion for designing and creating web applications.</p>
                         <p className="intro-font my-5">Currently looking for full-time work.</p>
                         <div className="row">
-                            <a href="" className="nav-link intro-link" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-                            <a href="" className="nav-link intro-link" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/jason-simons-120a92b9/" className="nav-link intro-link" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/jaso-the-queso" className="nav-link intro-link" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
+
                 <div className="title row align-items-center justify-content-center">
                     <h1 className="title-font">
                         Portfolio.
                     </h1>
                 </div>
-                <div className="container-fluid info">
+
+                <div className=" info">
                     <div className="container">
-                        <div className="row justify-content-start pt-5">
+                        <div className="row justify-content-start pt-5 mb-5">
                             <div className="col-5">
                                 <a href="https://busy-corner-cheese.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="../pics/busy.png" alt="busy corner cheese screenshot" className="w-100 h-100 rounded" /></a>
                             </div>
                             <div className="col-7">
-                                <h2>
+                                <h2 className="mb-5">
                                     Busy Corner Cheese & Provisions
                                 </h2>
+                                <p className="mb-5">
+                                    Redesigned website that allows the owners to change menu item names, prices, and descriptions from their own dashboard.
+                                </p>
+                                <div className="ml-1 row align-items-end">
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">React</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">Bootstrap</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">Node.js</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">Express.js</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">MySQL</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div className="row justify-content-start py-5">
+                        <div className="row justify-content-start py-5 mb-5">
                             <div className="col-5">
                                 <a href="https://github.com/jaso-the-queso/magic-city-woodworks-demo" target="_blank" rel="noopener noreferrer"><img src="../pics/magic.png" alt="magic city woodworks screenshot" className="w-100 h-100 rounded" /></a>
                             </div>
                             <div className="col-7">
-                                <h2>
+                                <h2 className="mb-5">
                                     Magic City Woodworks
                                 </h2>
+                                <p className="mb-5">
+                                    Front end only demo made for Magic City Woodworks in Birmingham, AL.
+                                </p>
+                                <div className="ml-1 row align-items-end">
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">React</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">MDBootstrap</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row justify-content-start pb-5 mb-5">
+                            <div className="col-5">
+                                <a href="https://github.com/jaso-the-queso/dis-bot" target="_blank" rel="noopener noreferrer"><img src="../pics/dis.png" alt="dis bot screenshot" className="w-100 h-100 rounded" /></a>
+                            </div>
+                            <div className="col-7">
+                                <h2 className="mb-5">
+                                    Dis-Bot
+                                </h2>
+                                <p className="mb-5">
+                                    Discord call and response bot used to make fun of my friends. Built purely for the fun of learning how to make a Discord bot. 
+                                </p>
+                                <div className="ml-1 row align-items-end">
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">JavaScript</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">Node.js</p>
+                                </div>
                             </div>
                         </div>
 
                         <div className="row justify-content-start pb-5">
                             <div className="col-5">
-                                <a href="https://github.com/jaso-the-queso/dis-bot" target="_blank" rel="noopener noreferrer"><img src="../pics/dis.png" alt="dis bot screenshot" className="w-100 h-100 rounded" /></a>
+                                <a href="https://github.com/psugg92/GateKeeper" target="_blank" rel="noopener noreferrer"><img src="../pics/dungeon.png" alt="dis bot screenshot" className="w-100 h-100 rounded" /></a>
                             </div>
                             <div className="col-7">
-                                <h2>
-                                    Dis-Bot
+                                <h2 className="mb-5">
+                                    Dungeon Keeper
                                 </h2>
+                                <p className="mb-5">
+                                    Dungeons and Dragons storyboarding application that allows Dungeon Masters to create and maintain enjoyable and immersive campaigns for their players. Spearheaded the UI design and front-end development.
+                                </p>
+                                <div className="ml-1 row align-items-end">
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">React</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">Bootstrap</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">Node.js</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">Express.js</p>
+                                    <p className="border rounded p-2 mr-1 border-danger bg-danger tool-tag">MySQL</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -91,6 +138,12 @@ export default class Home extends Component {
                             <li className="my-1">Ruby on Rails</li>
                         </ul>
                     </div>
+                </div>
+
+                <div className="footer row align-items-center justify-content-center no-gutters">
+                    <p className="mt-3">
+                        Developed and designed by Jason Simons &copy; 2018
+                    </p>
                 </div>
             </div>                
         );

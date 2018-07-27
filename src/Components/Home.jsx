@@ -8,8 +8,8 @@ export default class Home extends Component {
                 {/* Opening */}
                 <Fade>
                     <div className="row intro">
-                        <img src="../pics/headshot.jpg" alt="headshot" className="w-100 h-100 col-7" />
-                        <div className="col-5 info-p">
+                        <img src="../pics/headshot.jpg" alt="headshot" className="w-100 h-100 rounded col-xs-7 col-sm-7 col-md-7 col-lg-7" />
+                        <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5 info-p">
                             <h1 className="my-5 intro-font">Jason Simons</h1>
                             <h4 className="mt-5 intro-font">Freelance Developer</h4>
                             <h5 className="intro-font my-4">Birmingham, AL</h5>
@@ -38,12 +38,15 @@ export default class Home extends Component {
                     <div className="container">
 
                         {/* Busy Corner Cheese */}
-                        <Fade>
-                            <div className="row justify-content-start pt-5 mb-5">
-                                <div className="col-5">
+
+                        <div className="row justify-content-start pt-5 mb-5">
+                            <Fade>
+                                <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                     <a href="https://busy-corner-cheese.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="../pics/busy.png" alt="busy corner cheese screenshot" className="w-100 h-100 rounded" /></a>
                                 </div>
-                                <div className="col-7 info-p">
+                            </Fade>
+                            <Fade right>
+                                <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7 info-p">
                                     <h2 className="mb-5">
                                         Busy Corner Cheese & Provisions
                                 </h2>
@@ -58,16 +61,20 @@ export default class Home extends Component {
                                         <p className="p-2 mr-1 tool-tag">MySQL</p>
                                     </div>
                                 </div>
-                            </div>
-                        </Fade>
+                            </Fade>
+                        </div>
+
 
                         {/* Magic City Woodworks */}
-                        <Fade>
-                            <div className="row justify-content-start py-5 mb-5">
-                                <div className="col-5">
+
+                        <div className="row justify-content-start py-5 mb-5">
+                            <Fade>
+                                <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                     <a href="https://github.com/jaso-the-queso/magic-city-woodworks-demo" target="_blank" rel="noopener noreferrer"><img src="../pics/magic.png" alt="magic city woodworks screenshot" className="w-100 h-100 rounded" /></a>
                                 </div>
-                                <div className="col-7 info-p">
+                            </Fade>
+                            <Fade right>
+                                <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7 info-p">
                                     <h2 className="mb-5">
                                         Magic City Woodworks
                                 </h2>
@@ -79,16 +86,20 @@ export default class Home extends Component {
                                         <p className="p-2 mr-1 tool-tag">MDBootstrap</p>
                                     </div>
                                 </div>
-                            </div>
-                        </Fade>
+                            </Fade>
+                        </div>
+
 
                         {/* Dis-Bot */}
-                        <Fade>
-                            <div className="row justify-content-start pb-5 mb-5">
-                                <div className="col-5">
+
+                        <div className="row justify-content-start pb-5 mb-5">
+                            <Fade>
+                                <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                     <a href="https://github.com/jaso-the-queso/dis-bot" target="_blank" rel="noopener noreferrer"><img src="../pics/dis.png" alt="dis bot screenshot" className="w-100 h-100 rounded" /></a>
                                 </div>
-                                <div className="col-7 info-p">
+                            </Fade>
+                            <Fade right>
+                                <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7 info-p">
                                     <h2 className="mb-5">
                                         Dis-Bot
                                 </h2>
@@ -100,22 +111,26 @@ export default class Home extends Component {
                                         <p className="p-2 mr-1 tool-tag">Node.js</p>
                                     </div>
                                 </div>
-                            </div>
-                        </Fade>
+                            </Fade>
+                        </div>
+
 
                         {/* Dungeon Keeper */}
-                        <Fade>
-                            <div className="row justify-content-start pb-5">
-                                <div className="col-5">
+
+                        <div className="row justify-content-start pb-5">
+                            <Fade>
+                                <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                     <a href="https://github.com/psugg92/GateKeeper" target="_blank" rel="noopener noreferrer"><img src="../pics/dungeon.png" alt="dis bot screenshot" className="w-100 h-100 rounded" /></a>
                                 </div>
-                                <div className="col-7 info-p">
+                            </Fade>
+                            <Fade right>
+                                <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7 info-p">
                                     <h2 className="mb-5">
                                         Dungeon Keeper
-                                </h2>
+                                    </h2>
                                     <p className="mb-5">
                                         Dungeons and Dragons storyboarding application that allows Dungeon Masters to create and maintain enjoyable and immersive campaigns for their players. Spearheaded the UI design and front-end development.
-                                </p>
+                                    </p>
                                     <div className="ml-1 row align-items-end info-p">
                                         <p className="p-2 mr-1 tool-tag">React</p>
                                         <p className="p-2 mr-1 tool-tag">Bootstrap</p>
@@ -124,8 +139,9 @@ export default class Home extends Component {
                                         <p className="p-2 mr-1 tool-tag">MySQL</p>
                                     </div>
                                 </div>
-                            </div>
-                        </Fade>
+                            </Fade>
+                        </div>
+
                     </div>
                 </div>
 
@@ -140,30 +156,54 @@ export default class Home extends Component {
                 <div className="info">
                     <div className="row justify-content-center">
                         <Fade>
-                            <div className="col-2 mt-5 pt-5 mx-5">
+                            <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2 mt-5 pt-5 mx-5">
                                 <h1 className="text-center">
                                     Skills
                             </h1>
                                 <hr className="intro-hr my-4 text-center" />
                                 <ul className="list-unstyled">
-                                    <li className="my-1">HTML5</li>
-                                    <li className="my-1">CSS3</li>
-                                    <li className="my-1">JavaScript</li>
-                                    <li className="my-1">React</li>
-                                    <li className="my-1">React Native</li>
-                                    <li className="my-1">Node.js</li>
-                                    <li className="my-1">Express.js</li>
-                                    <li className="my-1">MySQL</li>
-                                    <li className="my-1">Bootstrap</li>
-                                    <li className="my-1">MDBootstrap</li>
+                                    <Fade left>
+                                        <li className="my-1">HTML5</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">CSS3</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">JavaScript</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">React</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">React Native</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">Node.js</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">Express.js</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">MySQL</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">Bootstrap</li>
+                                    </Fade>
+                                    <Fade left>
+                                        <li className="my-1">MDBootstrap</li>
+                                    </Fade>
                                 </ul>
                             </div>
-                            <div className="col-2 mt-5 pt-5 mx-5">
+                            <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2 mt-5 pt-5 mx-5">
                                 <h1 className="text-center">Studying</h1>
                                 <hr className="intro-hr my-4 text-center" />
                                 <ul className="list-unstyled">
-                                    <li className="my-1">Ruby</li>
-                                    <li className="my-1">Ruby on Rails</li>
+                                    <Fade right>
+                                        <li className="my-1">Ruby</li>
+                                    </Fade>
+                                    <Fade right>
+                                        <li className="my-1">Ruby on Rails</li>
+                                    </Fade>
                                 </ul>
                             </div>
                         </Fade>

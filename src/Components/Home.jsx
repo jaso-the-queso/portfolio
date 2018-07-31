@@ -6,9 +6,12 @@ export default class Home extends Component {
         return (
             <div>
                 {/* Opening */}
-                <Fade>
-                    <div className="row intro">
+
+                <div className="row intro">
+                    <Fade>
                         <img src="../pics/headshot.jpg" alt="headshot" className="w-100 h-100 rounded col-xs-7 col-sm-7 col-md-7 col-lg-7" />
+                    </Fade>
+                    <Fade right>
                         <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5 info-p">
                             <h1 className="my-5 intro-font">Jason Simons</h1>
                             <h4 className="mt-5 intro-font">Freelance Developer</h4>
@@ -22,8 +25,9 @@ export default class Home extends Component {
                             </div>
                             <a href="../pics/resume.pdf" download="Jason_Simons_Resume"><span><button type="button" className="btn">Download Resume</button></span></a>
                         </div>
-                    </div>
-                </Fade>
+                    </Fade>
+                </div>
+
 
                 {/* Portfolio Section */}
                 <div className="title row align-items-center justify-content-center">
@@ -35,7 +39,7 @@ export default class Home extends Component {
                 </div>
 
                 <div className="info">
-                    <div className="container">
+                    <div className="container py-5">
 
                         {/* Busy Corner Cheese */}
 
@@ -156,7 +160,7 @@ export default class Home extends Component {
                 <div className="info">
                     <div className="row justify-content-center">
                         <Fade>
-                            <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2 mt-5 pt-5 mx-5">
+                            <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2 my-5 py-5 mx-5">
                                 <h1 className="text-center">
                                     Skills
                             </h1>
@@ -211,8 +215,8 @@ export default class Home extends Component {
                 </div>
 
                 {/* Footer */}
-                <div className="footer row align-items-center justify-content-center no-gutters">
-                    <p className="mt-3">
+                <div className="footer row align-items-center justify-content-center">
+                    <p className="pt-2">
                         Developed and designed by Jason Simons &copy; 2018
                     </p>
                 </div>

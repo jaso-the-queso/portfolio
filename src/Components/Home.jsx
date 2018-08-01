@@ -28,6 +28,56 @@ export default class Home extends Component {
                     </Fade>
                 </div>
 
+                {/* About Me Section */}
+                <div className="title row align-items-center justify-content-center">
+                    <Fade>
+                        <h1 className="title-font">
+                            About Me.
+                        </h1>
+                    </Fade>
+                </div>
+                <div className="about">
+                    <div className="row justify-content-center">
+                        <Fade>
+                            <div className="col-xs-7 col-sm-7 col-md-7 col-lg-7 my-5 py-5">
+                                <Fade left>
+                                    <h1 className="my-4">I want to create applications for you.</h1>
+                                    <hr className="intro-hr" />
+                                </Fade>
+                                <Fade left>
+                                    <p className="my-5">
+                                        Hello, my name is Jason Simons and I am a freelance developer.
+                                        For most of my life, my passion has been making music and playing drums.
+                                        I spent six years of my life in Nashville, TN as a freelance drummer and bassist.
+                                        During those years, I recorded in studios, played in bars, toured with friends, and instructed high school drum lines.
+                                        Whenever I wasn't playing the drums, I was working as a barista and teaching myself HTML, CSS, and JavaScript.
+                                        While I very much enjoyed playing music, I progressively developed a sour attitude toward the music industry and decided that I wanted a change in career.
+                                        It was then that I decided to begin my transition over to my growing passion, which was coding.
+                                    </p>
+                                </Fade>
+                                <Fade left>
+                                    <p className="my-5">
+                                        Soon after, I moved to Birmingham, AL and found another job as a barista at Woodlawn Cycle Cafe.
+                                        I worked there for half a year, all the while saving money and continuing my practice of coding.
+                                        Once I saved enough money, I decided to accelerate my learning and enroll in the local coding bootcamp, Covalence.
+                                        During this time, I solidified my knowledge of HTML, CSS, and Javascript while also learing new technologies such as React, React Native, Node.js, Express.js, MySQL, and Heroku deployment.
+                                        Ever since graduation near the end of March 2018, I have spent my days improving myself as a programmer by taking on projects from local clients in Birmingham.
+                                    </p>
+                                </Fade>
+                                <Fade left>
+                                    <p className="my-5">
+                                        Currently, I am looking for full-time work.
+                                    </p>
+                                </Fade>
+                            </div>
+                            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 mt-5 pt-5">
+                                <h1 className="text-center">
+                                    Studying
+                                </h1>
+                            </div>
+                        </Fade>
+                    </div>
+                </div>
 
                 {/* Portfolio Section */}
                 <div className="title row align-items-center justify-content-center">
@@ -42,9 +92,8 @@ export default class Home extends Component {
                     <div className="container py-5">
 
                         {/* Busy Corner Cheese */}
-
                         <div className="row justify-content-start pt-5 mb-5">
-                            <Fade>
+                            <Fade left>
                                 <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                     <a href="https://busy-corner-cheese.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="../pics/busy.png" alt="busy corner cheese screenshot" className="w-100 h-100 rounded" /></a>
                                 </div>
@@ -72,7 +121,7 @@ export default class Home extends Component {
                         {/* Magic City Woodworks */}
 
                         <div className="row justify-content-start py-5 mb-5">
-                            <Fade>
+                            <Fade left>
                                 <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                     <a href="https://github.com/jaso-the-queso/magic-city-woodworks-demo" target="_blank" rel="noopener noreferrer"><img src="../pics/magic.png" alt="magic city woodworks screenshot" className="w-100 h-100 rounded" /></a>
                                 </div>
@@ -97,7 +146,7 @@ export default class Home extends Component {
                         {/* Dis-Bot */}
 
                         <div className="row justify-content-start pb-5 mb-5">
-                            <Fade>
+                            <Fade left>
                                 <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                     <a href="https://github.com/jaso-the-queso/dis-bot" target="_blank" rel="noopener noreferrer"><img src="../pics/dis.png" alt="dis bot screenshot" className="w-100 h-100 rounded" /></a>
                                 </div>
@@ -122,7 +171,7 @@ export default class Home extends Component {
                         {/* Dungeon Keeper */}
 
                         <div className="row justify-content-start pb-5">
-                            <Fade>
+                            <Fade left>
                                 <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                     <a href="https://github.com/psugg92/GateKeeper" target="_blank" rel="noopener noreferrer"><img src="../pics/dungeon.png" alt="dis bot screenshot" className="w-100 h-100 rounded" /></a>
                                 </div>

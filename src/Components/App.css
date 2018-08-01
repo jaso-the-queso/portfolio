@@ -70,6 +70,14 @@ a:hover {
     
 }
 
+.about {
+    background-color:#212121;
+    color: #FEFEFE;
+    font-family: 'OpenSans-Light';
+    line-height: 1.5em;
+    letter-spacing: 1.2px;
+}
+
 div.info-p {
     font-family: 'OpenSans-Light';
     letter-spacing: 1.2px;

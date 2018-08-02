@@ -71,9 +71,14 @@ export default class Home extends Component {
                                 </Fade>
                             </div>
                             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 mt-5 pt-5">
-                                <h1 className="text-center">
-                                    Studying
-                                </h1>
+                                <div className="row my-5">
+                                    <img src="../pics/drums.jpg" alt="" className="col-xs-6 col-sm-6 col-md-6 col-lg-6 w-100 h-100 rounded" />
+                                    <img src="../pics/latte.jpg" alt="" className="col-xs-6 col-sm-6 col-md-6 col-lg-6 w-100 h-100" />
+                                </div>
+                                <div className="row">
+                                    <img src="../pics/drums.jpg" alt="" className="col-xs-6 col-sm-6 col-md-6 col-lg-6 w-100 h-100" />
+                                    <img src="../pics/latte.jpg" alt="" className="col-xs-6 col-sm-6 col-md-6 col-lg-6 w-100 h-100" />
+                                </div>
                             </div>
                         </Fade>
                     </div>
